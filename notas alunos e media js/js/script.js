@@ -15,7 +15,7 @@ document.querySelector('#btnexecutar').addEventListener('click', function(){
         }
     }
     if(erro===1){
-        alert("dados invalidos, insira uma nota menor que 10");
+        alert("dados invalidos, insira a nota menor que 10");
     }else{
         media = soma/notas.length;
         document.querySelector('#a1').innerHTML = notas[0];
