@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <title>Calculadora de IMC</title>
+</head>
+<body>
+  <div class="jumbotron text-center">
+      <h1>Calculadora de Indice de Massa Corporal</h1>
+      <p>Sejam bem vindos para o sistema onde calcula o seu IMC</p>
+  </div>
+    <div class="container">
+      <h1>Dados para calcular o IMC</h1>
+      <br>
+    <form action="" class="form">
+        <div class="form-group">
+            <label for="peso">Digite o seu peso</label>
+            <input type="text" class="form-control" id="txtpeso" name="txtpeso" placeholder="Ex: 82.7" required>
+        </div>
+        <div class="form-group">
+          <label for="">Digite a sua altura</label>
+          <input type="text" class="form-control" id="txtalt" name="txtalt" placeholder="Ex: 1.84" required>
+        </div>
+        <button type="submit" class="btn btn-primary" id="btnexecutar">Enviar</button>
+    </form>
+    <br>
+        <div class="alert alert-success">
+            <p>O seu IMC é:</p>
+            <br>
+            <h4 id="txtimc">-</h4>
+        </div>
+        <div class="alert alert-success">
+            <p>O seu Tipo de IMC é:</p>
+            <br>
+            <h4 id="txttipo">-</h4>
+        </div>
+    </div>
+     <script src="js/script.js"></script>
+</body>
+</html>
+

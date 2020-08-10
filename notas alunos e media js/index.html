@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <title>Média das notas do aluno</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Média de notas</h1>
+            <p>Sistema simples</p>
+        </div>
+            
+            <div class="form-group">
+                <label for="Aluno1">Digite a primeira nota do aluno</label>
+                <input type="number" class="form-control" id="txtaluno1" name="txtaluno1" max="10" min="0" required>
+            </div>
+            <div class="form-group">
+                <label for="Aluno2">Digite a segunda nota do aluno </label>
+                <input type="number" class="form-control" id="txtaluno2" name="txtaluno2" max="10" min="0"  required>
+            </div>
+            <div class="form-group">
+                <label for="Aluno3">Digite a terceira nota do aluno</label>
+                <input type="number" class="form-control" id="txtaluno3" name="txtaluno3" max="10" min="0"  required>
+            </div>
+            <button type="submit" class="btn btn-primary" id="btnexecutar">Enviar</button>
+         
+            <br><br>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#resultados">Mostrar resultados</button>
+        <div id="resultados" class="collapse">
+          <label for="a1">primeira nota do aluno</label>
+          <p id="a1">-</p>
+          <label for="a2">segunda nota do aluno</label>
+          <p id="a2">-</p>
+          <label for="a3">terceira nota do aluno</label>
+          <p id="a3">-</p>
+          <label for="situacao">A situação do aluno é:</label>
+          <p id="situacao">-</p>
+        </div>
+      
+    </div>
+
+     <script src="js/script.js"></script>
+</body>
+</html>
+
