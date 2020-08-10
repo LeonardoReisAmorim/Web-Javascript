@@ -12,6 +12,12 @@
     .form input{
       width: 250px;
     }
+    .resposta{
+      position: relative;
+      left: 400px;
+      bottom: 200px;
+      width: 700px;
+    }
   </style>
   <title>Calculadora de IMC</title>
 </head>
@@ -21,7 +27,6 @@
       <p>Sejam bem vindos para o sistema onde calcula o seu IMC</p>
   </div>
     <div class="container">
-      <h1>Dados para calcular o IMC</h1>
       <br>
     <form action="" class="form">
         <div class="form-group">
@@ -35,16 +40,18 @@
         <button type="submit" class="btn btn-primary" id="btnexecutar">Enviar</button>
     </form>
     <br>
-        <div class="alert alert-success">
-            <p>O seu IMC é:</p>
-            <br>
-            <h4 id="txtimc">-</h4>
-        </div>
-        <div class="alert alert-success">
-            <p>O seu Tipo de IMC é:</p>
-            <br>
-            <h4 id="txttipo">-</h4>
-        </div>
+      <div class="resposta">
+          <div class="alert alert-success">
+              <p>O seu IMC é:</p>
+              <br>
+              <h4 id="txtimc">-</h4>
+          </div>
+          <div class="alert alert-success">
+              <p>O seu tipo de IMC é:</p>
+              <br>
+              <h4 id="txttipo">-</h4>
+          </div>
+      </div>
     </div>
      <script src="js/script.js"></script>
 </body>
