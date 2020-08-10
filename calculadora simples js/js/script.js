@@ -3,6 +3,7 @@ document.querySelector('.form').addEventListener('submit', function(event){
     let n2 =  parseFloat(document.querySelector("#txtv2").value);
     let op =  parseInt(document.querySelector("#txtop").value);
     let cal = 0;
+    let resultado = document.querySelector("#resultado");
     //cancela o submit
     event.preventDefault();
 
@@ -19,13 +20,6 @@ document.querySelector('.form').addEventListener('submit', function(event){
         cal = n1/n2;
     }
 
-    document.write("calculo: "+cal);
-    tempo();
-})
-
-function tempo(){
-    setTimeout(function(){
-        location.href="../index.html";
-    },3000)
-}
+    resultado.innerHTML = "<strong>Resposta: "+cal+"</strong>";
+});
 
