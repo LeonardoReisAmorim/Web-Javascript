@@ -1,5 +1,5 @@
 # Web Javascript
-#### Small projects and activities with HTML5, CSS3 and Javascript
+#### Small projects and activities with HTML5, CSS3, Bootstrap and Javascript
 ***
 + #### Calculadora simples usando JS / Simple calculator using JS: [ACESSE AQUI / ACCESS HERE](https://github.com/LeonardoReisAmorim/Web-Javascript/tree/master/calculadora%20simples%20js)
 
