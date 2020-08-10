@@ -1,7 +1,7 @@
 # Web Javascript
 #### Small projects and activities with HTML5, CSS3 and Javascript
 ***
-+ #### Mini-projeto usando uma API para Buscar o CEP de alguma pessoa / Miniproject using an API to search for someone's postal code: [ACESSE AQUI / ACCESS HERE](https://github.com/LeonardoReisAmorim/Java/tree/master/BuscaCep%20JAVA)
++ #### Calculadora simples usando JS / Simple calculator using JS: [ACESSE AQUI / ACCESS HERE](https://github.com/LeonardoReisAmorim/Web-Javascript/tree/master/calculadora%20simples%20js)
 
 + #### Trabalho feito com o objetivo de fazer um controle de senhas de algum estabelecimento /  Work done with the objective of doing a password control of some establishment: [ACESSE AQUI / ACCESS HERE](https://github.com/LeonardoReisAmorim/Java/tree/master/Controle%20Senhas%20JAVA) 
 
