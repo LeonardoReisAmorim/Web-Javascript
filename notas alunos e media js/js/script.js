@@ -25,7 +25,7 @@ document.querySelector('#btnexecutar').addEventListener('click', function(){
         document.querySelector('#situacao').innerHTML = situ + " sua media e: "+media.toFixed(1);
     }
     
-})
+});
 
 function situaluno(x){
     if(x>=0 && x<7) return "reprovado";
