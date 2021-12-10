@@ -1,5 +1,4 @@
 document.querySelector('#btnexecutar').addEventListener('click', function(){
-    alert('notas enviadas com sucesso');
     let notas = [];
     let soma = 0;
     let media = 0;
@@ -14,7 +13,7 @@ document.querySelector('#btnexecutar').addEventListener('click', function(){
             soma += notas[i];
         }
     }
-    if(erro===1){
+    if(erro){
         alert("dados invalidos, insira a nota menor que 10");
     }else{
         media = soma/notas.length;
@@ -24,7 +23,6 @@ document.querySelector('#btnexecutar').addEventListener('click', function(){
         let situ = situaluno(media);
         document.querySelector('#situacao').innerHTML = situ + " sua media e: "+media.toFixed(1);
     }
-    
 });
 
 function situaluno(x){

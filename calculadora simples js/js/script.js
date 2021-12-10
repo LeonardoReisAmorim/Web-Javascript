@@ -9,13 +9,10 @@ document.querySelector('.form').addEventListener('submit', function(event){
 
     if(op===1){
         cal = n1+n2;
-
     } else if(op===2){
         cal = n1-n2;
-
     } else if(op===3){
         cal = n1*n2;
-
     } else if(op===4){
         cal = n1/n2;
     }
